@@ -1,19 +1,12 @@
-namespace CaterpillarControlSystem.api.enums;
+namespace CaterpillarControlSystem.api.Initializers;
 
 /**
  * GECA rider commands
  */
-public enum EnumRiderCommand
+public abstract class InitRiderCommand
 {
-    //up
-    U,
-
-    //down
-    D,
-
-    //left
-    L,
-
-    //right
-    R
+    public const char Up = 'U';
+    public const char Down = 'D';
+    public const char Left = 'L';
+    public const char Right = 'R';
 }
