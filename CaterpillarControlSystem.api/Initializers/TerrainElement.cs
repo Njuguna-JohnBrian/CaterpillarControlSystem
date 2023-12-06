@@ -1,19 +1,12 @@
-namespace CaterpillarControlSystem.api.enums;
+namespace CaterpillarControlSystem.api.Initializers;
 
 /**
  * planet terrain elements
  */
-public enum EnumTerrainElement
+public abstract class InitTerrainElement
 {
-    //empty
-    E,
-
-    //obstacle
-    X,
-
-    //spice
-    S,
-
-    //booster
-    B
+    const char Empty = '.';
+    const char Obstacle = 'X';
+    const char Spice = '$';
+    const char Booster = 'B';
 }
