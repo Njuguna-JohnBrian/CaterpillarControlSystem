@@ -28,6 +28,20 @@ public class Geca
 
 
     }
+    
+    public void Move(char direction)
+    {
+        if (new char[]
+            {
+                InitRiderCommand.Up, 
+                InitRiderCommand.Down, 
+                InitRiderCommand.Right, 
+                InitRiderCommand.Left
+            }
+            .Contains(direction))
+        {
+        }
+    }
 
    
 }
