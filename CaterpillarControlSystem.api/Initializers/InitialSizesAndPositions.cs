@@ -1,25 +1,25 @@
-namespace CaterpillarControlSystem.api.enums;
+namespace CaterpillarControlSystem.api.Initializers;
 
 /**
  * initial sizes and positions
  */
-public enum EnumInitialSizesAndPositions
+public abstract class InitialSizesAndPositions
 {
     //initial caterpillar size
-    CaterpillarInitialSize = 2,
+    const int CaterpillarInitialSize = 2;
 
     //initial caterpillar horizontal position
-    CaterpillarInitialXPosition = 15,
+    const int CaterpillarInitialXPosition = 15;
 
     //initial caterpillar vertical position
-    CaterpillarInitialYPosition = 15,
+    const int CaterpillarInitialYPosition = 15;
 
     //initial radar size
-    RadarSize = 11,
+    const int RadarSize = 11;
 
     //unique area size
-    AreaSize = 30,
+    const int AreaSize = 30;
 
     //maximum caterpillar size
-    CaterpillarMaxSize = 5
+    const int IntCaterpillarMaxSize = 5;
 }
