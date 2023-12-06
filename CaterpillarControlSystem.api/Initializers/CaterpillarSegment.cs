@@ -1,9 +1,9 @@
-namespace CaterpillarControlSystem.api.enums;
+namespace CaterpillarControlSystem.api.Initializers;
 
 /**
  * caterpillar body segments
  */
-public abstract class EnumCaterpillarSegment
+public abstract class InitCaterpillarSegment
 {
     public const char Head = 'H';
     public const char Tail = 'T';
