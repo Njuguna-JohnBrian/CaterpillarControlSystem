@@ -1,9 +1,9 @@
-namespace CaterpillarControlSystem.api.enums;
+namespace CaterpillarControlSystem.api.Initializers;
 
 /**
  * caterpillar growth modes
  */
-public enum EnumCaterpillarGrowthModes
+public abstract class InitCaterpillarGrowthModes
 {
-    LinearGrowth
+    public const string LinearGrowth = "LinearGrowth";
 }
