@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaterpillarControlSystem.api", "CaterpillarControlSystem.api\CaterpillarControlSystem.api.csproj", "{D18E25CB-897F-4B7E-9EB4-95CD532A844B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaterpillarControlSystem.control", "CaterpillarControlSystem.control\CaterpillarControlSystem.control.csproj", "{D18E25CB-897F-4B7E-9EB4-95CD532A844B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaterpillarControlSystem.tests", "CaterpillarControlSystem.tests\CaterpillarControlSystem.tests.csproj", "{399E7A9F-0CA7-4D42-B570-54AC259C8BBC}"
 EndProject
