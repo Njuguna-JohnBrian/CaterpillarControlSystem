@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![C# Version](https://img.shields.io/badge/c%23-8.0-blue)](https://docs.microsoft.com/en-us/dotnet/csharp/)
 
-[![.NET](https://github.com/Njuguna-JohnBrian/CaterpillarControlSystem/actions/workflows/dotnet.yml/badge.svg)](https://github.com/Njuguna-JohnBrian/CaterpillarControlSystem/actions/workflows/dotnet.yml)
+[![.NET Unit Tests](https://github.com/Njuguna-JohnBrian/CaterpillarControlSystem/actions/workflows/dotnet.yml/badge.svg)](https://github.com/Njuguna-JohnBrian/CaterpillarControlSystem/actions/workflows/dotnet.yml)
 
 ## Overview
 
