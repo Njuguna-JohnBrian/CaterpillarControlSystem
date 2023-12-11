@@ -2,14 +2,14 @@ namespace CaterpillarControlSystem.control.Services;
 
 public class LoggerService
 {
-    private static readonly string ProjectRoot =
+    public static readonly string ProjectRoot =
         Path.GetFullPath(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "..", "..", ".."));
 
-    private static string LogsFolder => Path.Combine(ProjectRoot, "logs");
+    public static string LogsFolder => Path.Combine(ProjectRoot, "logs");
 
-    private readonly string _errorLogPath = Path.Combine(LogsFolder, "error.txt");
-    private readonly string _movementLogPath = Path.Combine(LogsFolder, "movement.txt");
-    private readonly string _generalLogPath = Path.Combine(LogsFolder, "general.txt");
+    public readonly string _errorLogPath = Path.Combine(LogsFolder, "error.txt");
+    public readonly string _movementLogPath = Path.Combine(LogsFolder, "movement.txt");
+    public readonly string _generalLogPath = Path.Combine(LogsFolder, "general.txt");
 
 
     public LoggerService()
@@ -19,7 +19,7 @@ public class LoggerService
         InitializeLogFile(_generalLogPath);
     }
 
-    private void InitializeLogFile(string filePath)
+    public  void InitializeLogFile(string filePath)
     {
         if (!File.Exists(filePath))
         {
@@ -36,7 +36,7 @@ public class LoggerService
         ClearLogFile(_generalLogPath);
     }
 
-    private static void ClearLogFile(string filePath)
+    public static void ClearLogFile(string filePath)
     {
         File.WriteAllText(filePath, string.Empty);
     }
@@ -56,7 +56,7 @@ public class LoggerService
         LogToFile(_generalLogPath, generalMessage);
     }
 
-    private static void LogToFile(string filePath, string message)
+    public static void LogToFile(string filePath, string message)
     {
         using var writer = new StreamWriter(filePath, true);
         writer.Write($"\n{DateTime.Now:yyyy-MM-dd HH:mm:ss} - {message}");
