@@ -3,6 +3,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![C# Version](https://img.shields.io/badge/c%23-8.0-blue)](https://docs.microsoft.com/en-us/dotnet/csharp/)
 
+[![.NET](https://github.com/Njuguna-JohnBrian/CaterpillarControlSystem/actions/workflows/dotnet.yml/badge.svg)](https://github.com/Njuguna-JohnBrian/CaterpillarControlSystem/actions/workflows/dotnet.yml)
+
 ## Overview
 
 The Caterpillar Control System is a console-based simulation of a caterpillar's movement. The system allows users to control the caterpillar by providing commands for movement, growth, and shrinking.
