@@ -115,9 +115,8 @@ public class CaterpillarControlSystemTests
     public void TestMove_ValidMoveWithBooster_GrowsCaterpillar()
     {
         var geca = new Geca(3, 5, 5);
-        // Initialization steps to place booster (omitted for brevity)
-        geca.Move(Utils.RIGHT); // Valid move that should trigger booster
-        // Assertions to check if booster is handled correctly (omitted for brevity)
+        geca.Move(Utils.RIGHT);
+        Assert.Equal(4, geca.GetCaterpillarSize());
     }
 
     [Fact]
@@ -142,8 +141,6 @@ public class CaterpillarControlSystemTests
             var expectedRadarImage = sw.ToString();
 
             Assert.Contains("..T.0H", expectedRadarImage);
-
-            // Clear the captured console output
             sw.GetStringBuilder().Clear();
         }
     }
