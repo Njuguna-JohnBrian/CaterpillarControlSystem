@@ -3,7 +3,7 @@ using CaterpillarControlSystem.control.Services;
 
 namespace CaterpillarControlSystem.control.Operations;
 
-internal class CaterpillarControlSystem
+public class CaterpillarControlSystem
 {
     private readonly Geca _geca = new(Utils.Utils.RADAR_SIZE, Utils.Utils.INITIAL_SIZE, Utils.Utils.INITIAL_SIZE);
 

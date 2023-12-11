@@ -3,7 +3,7 @@ using CaterpillarControlSystem.control.Services;
 
 namespace CaterpillarControlSystem.control.model;
 
-internal class Geca
+public class Geca
 {
     private readonly List<Segment> _caterpillar;
     private char[,]? _area;
@@ -337,5 +337,19 @@ internal class Geca
         }
 
         throw new ArgumentException("Invalid direction. Please enter U, D, L, or R.");
+    }
+
+    public int GetCaterpillarSize()
+    {
+        return _caterpillar.Count;
+    }
+    public int GetHeadX()
+    {
+        return _caterpillar[_headIndex].X;
+    }
+
+    public int GetHeadY()
+    {
+        return _caterpillar[_headIndex].Y;
     }
 }
